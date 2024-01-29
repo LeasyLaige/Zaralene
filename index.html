@@ -4,9 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <title>Business Name</title>
   </head>
   <body>
+    <nav id="nav" class="navbar navbar-expand-md fixed-top navbar-dark nav-blur bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <div class="d-flex align-items-center">
+            <img class="navbar-icon px-2" src="images/Japan_flag_icon.png" alt="">
+            <h2 style="display: inline;">Business Name</h2>   
+          </div>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-burger-menu" aria-controls="#nav-burger-menu" aria-label="Expand Navigation">
+          <div class="navbar-toggler-icon"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-burger-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forms.html">Forms</a>
+            </li>
+          </ul>   
+        </div>
+      </div>
+    </nav>
+
+    <!-- Just A Placeholder. You can remove it -->
+    <div style="padding: 200px;">
+      <h1>Sample Body</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fuga! Ducimus, veritatis quasi! Magni facere esse possimus maiores iure eaque dignissimos voluptates reprehenderit nihil consequuntur rerum nisi inventore cupiditate laborum perferendis consectetur eligendi perspiciatis ipsum accusantium impedit itaque, natus molestiae quo. Dolorem tenetur quidem distinctio, consequatur laboriosam id quod repellendus illo at est deserunt, quia autem? Consequuntur natus ipsum reprehenderit perspiciatis quia, minus delectus, quas consequatur dolorem qui accusamus cupiditate? Commodi aspernatur omnis, consequuntur, accusantium nulla dolorem quisquam excepturi eius, nemo dolor delectus. Consequatur cum eum temporibus? Hic vero distinctio, atque nihil cum possimus nam nemo labore laudantium quasi voluptatum modi debitis tempore quam nulla in soluta, ratione dolorem magni ad sed quos eius assumenda? Dolor atque adipisci facilis fugit repellendus sed harum cumque ad sapiente magnam vitae non quos itaque consectetur corrupti incidunt nemo temporibus delectus alias voluptatum, eaque quas doloribus! Asperiores illum voluptatum velit ex, reprehenderit quasi fuga corporis ad maiores ipsam similique numquam veritatis dolores veniam. Quasi, animi? Tempora dolor rem in culpa quae, quidem nesciunt ullam sit quia aspernatur, repellendus error, fugit sed voluptatem corporis earum at officia neque qui doloribus explicabo nemo atque? Est culpa quidem fugiat tempora unde architecto pariatur quisquam explicabo voluptas perferendis?
+    </div>
+
+    <footer class="footer bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <section class="mb-4">
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://www.facebook.com/rock.santeco" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://twitter.com/essantec" role="button"><i class="fab fa-twitter"></i></a>
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://www.instagram.com/enr.tco/" role="button"><i class="fab fa-instagram"></i></a>
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://github.com/shrkocat" role="button"><i class="fab fa-github"></i></a>
+        </section>
+
+        <section class="">
+          <form action="">
+            <!--Bootstrap for Grid System-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter and promotions</strong>
+                </p>
+              </div>
+              <div class="col-md-5 col-12">
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" id="form5Example24" class="form-control" />
+                  <label class="form-label" for="form5Example24">Email address</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <!--Bootstrap for Button-->
+                <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section class="mb-4 py-2">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt repellat sunt saepe? Molestias itaque, dolor nesciunt quo dolorem natus fugiat, totam libero aliquid vel minus, possimus voluptate nisi qui?</p>
+        </section>
+
+        <section class="">
+          <!--Bootstrap for Grid System-->
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">More Guides</h5>
     
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="text-body" href="https://eng.taiwan.net.tw">Info 1</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.roughguides.com/taiwan/">Info 2</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-taiwan">Info 3</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://edition.cnn.com/travel/destinations/taiwan">Info 4</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Newsworthy</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="text-body" href="https://focustaiwan.tw/culture/202401070006">News 1</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.taiwannews.com.tw/en/news/4882199">News 2</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://english.cw.com.tw/article/article.action?id=2526">News 3</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://edition.cnn.com/travel/article/taiwan-paying-tourists-grants/index.html">News 4</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Other Trips</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="text-body" href="https://www.japan-guide.com/e/e623.html">Sample 1</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.lonelyplanet.com/croatia">Sample 2</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.australia.com/en/facts-and-planning/beginners-guide-to-australia.html">Sample 3</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.lonelyplanet.com/france">Sample 4</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Socials</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="text-body" href="https://www.facebook.com/rock.santeco">Facebook</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://twitter.com/essantec">Twitter</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://www.instagram.com/enr.tco/">Instagram</a>
+                </li>
+                <li>
+                  <a class="text-body" href="https://github.com/shrkocat">Github</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+      <a class="text-reset fw-bold" href="#">Tour Horizons</a>
+      </div>
+    </footer>
   </body>
 </html>
