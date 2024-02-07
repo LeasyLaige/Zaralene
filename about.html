@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Zaralene Convenience Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+<nav id="nav" class="navbar navbar-expand-md fixed-top navbar-dark nav-blur" style="background-color: rgb(94, 36, 106);">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <div class="d-flex align-items-center">
+                <img class="navbar-icon px-2" src="images/Japan_flag_icon.png" alt="">
+                <h2 style="display: inline;">Zaralene</h2>
+            </div>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-burger-menu" aria-controls="#nav-burger-menu" aria-label="Expand Navigation">
+            <div class="navbar-toggler-icon"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-burger-menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forms.html">Forms</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+	 .about-us-section {
+            position: relative;
+            filter: blur(8px);
+            background-image: url('store.png');
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            padding: 50px 0;
+        }
+       
+        #about-us h1 {
+            font-family: 'Arial', sans-serif; 
+            font-size: 4rem; 
+            font-weight: bold; 
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            margin-bottom: 20px;
+        }
+        #about-us p {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.8rem; 
+            color: #ffffff; 
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            line-height: 1.6; 
+        }
+
+        .story-img {
+            max-height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+        .about-us-header {
+            background-color: rgb(94, 36, 106);
+            color: white;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 30px;
+        }
+        .bg-text {
+            background-color: rgb(94, 36, 106); 
+            background-color: rgba(0,0,0, 0.4); 
+            color: white;
+            font-weight: bold;
+            border: 3px solid rgb(186, 64, 210);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+<section id="about-us" class="about-us-section"></section>
+    <div class="bg-text text-center text-light py-5">
+        <h1 class="display-4 mb-4">About Us</h1>
+        <p class="lead">Welcome to Zaralene Convenience Store. We strive to provide the best convenience shopping experience for our customers.</p>
+    </div>
+
+<section id="background-info" class="p-5 text-white" style="background-color: rgb(94, 36, 106);">
+    <div class="container py-5" style="backdrop-filter: blur(5px);">
+        <h2 class="text-center mb-4">Background</h2>
+        <p>Zaralene Convenience Store has its roots deeply embedded in the vibrant heart of a bustling urban neighborhood. Founded in 2008 by Jocelyn Ongtangco, a visionary entrepreneur with a passion for community service, Zaralene was born out of a desire to cater to the evolving needs of the local community.</p>
+    </div>
+</section>
+
+<section id="story" class="py-5">
+    <div class="container px-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                    <div class="div py-5">
+                        <h2 class="py-3">Story of Jocelyn Ongtangco</h2>
+                        <p style="text-align: justify;">Jocelyn Ongtangco, the founder of Zaralene, began when she noticed a lack of easily accessible essentials in her neighborhood. Determined to fill this gap and provide a one-stop solution for everyday needs, she embarked on a mission to establish a convenience store that would not only offer a wide range of products but also serve as a hub for social interaction and community engagement. Driven by her unwavering commitment to customer satisfaction and convenience, Jocelyn meticulously curated a diverse selection of merchandise, ranging from groceries and household items to snacks and beverages. However, Zaralene was more than just a place to shop; it became a gathering spot where neighbors could connect, share stories, and forge lasting relationships.</p>    
+                    </div>
+                    <img src="mom1.png" alt="Jocelyn Ongtangco" class="img-fluid story-img ps-md-5">      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="evolution" class="bg-light">
+    <div class="container p-5">
+        <h2 class="text-center about-us-header mb-4">Evolution of Zaralene</h2>
+         <p style="text-align: justify;">Over the years, Zaralene Convenience Store has become an integral part of the neighborhood fabric, adapting to changing trends and preferences while remaining true to its core values of quality, affordability, and exceptional service. Whether it's a quick morning coffee run, a last-minute grocery dash, or a spontaneous catch-up session with friends, Zaralene continues to be the go-to destination for all who seek convenience and community in equal measure. As Zaralene Convenience Store looks to the future, its commitment to innovation and customer-centricity remains steadfast. With plans to expand its offerings, enhance its online presence, and further enrich the local community, Zaralene is poised to continue its legacy as a trusted neighborhood institution for generations to come.</p>
+    </div>
+</section>
+
+<section id="mission" class="p-5">
+    <div class="container">
+        <h2 class="text-center about-us-header mb-4">Mission</h2>
+        <p style="text-align: justify;">Zaralene Convenience Store is committed to making everyday life easier for our customers by providing a convenient and enjoyable shopping experience. We aim to offer a diverse range of high-quality products at affordable prices while delivering exceptional customer service. Our mission extends beyond mere transactions; we strive to create a welcoming environment that fosters community connections and enriches the lives of our patrons.</p>
+    </div>
+</section>
+
+<section id="values" class="p-5">
+    <div class="container">
+        <div class="col">
+            <h2 class="text-center about-us-header mb-4">Values</h2>
+            <ul>
+                <li>Customer-Centricity: Our customers are at the heart of everything we do.</li>
+                <li>Quality and Affordability: We are dedicated to offering products of the highest quality at affordable prices.</li>
+                <li>Exceptional Service: Our team is committed to delivering outstanding service with warmth and professionalism.</li>
+                <li>Community Engagement: We believe in the power of community and actively seek to build meaningful connections among our customers.</li>
+                <li>Continuous Improvement: We continuously strive for excellence and innovation to enhance our offerings and operations.</li>
+            </ul>    
+        </div>
+        
+    </div>
+</section>
+
+
+<section id="testimonials" style="background-color: rgb(94, 36, 106);">
+    <div class="container p-5">
+        <h2 class="text-center text-white mb-4">Testimonials</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"I've been a loyal customer of Zaralene Convenience Store for years now, and I can't recommend it enough. The staff is always friendly, the store is well-stocked with all the essentials, and the prices are unbeatable. It truly makes my shopping experience a breeze!"</p>
+                        <footer class="blockquote-footer">John Doe</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"Zaralene Convenience Store has become my go-to spot for quick grocery runs and last-minute essentials. The convenience of having everything I need in one place, coupled with the store's clean and organized layout, makes it a top choice for me. Plus, their freshly stocked produce section is a bonus!"</p>
+                        <footer class="blockquote-footer">Jane Doe</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">"As someone with a busy schedule, Zaralene Convenience Store has been a lifesaver for me. Whether I need to grab a quick snack on the go or stock up on household items, I know I can rely on Zaralene for quality products and speedy service. It's truly convenience at its finest!"</p>
+                        <footer class="blockquote-footer">Mary Smith</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Meet the Team</h2>
+        <div class="row justify-content-center"> <!-- Center the single member -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="mom.png" class="card-img-top" alt="Team Member">
+                    <div class="card-body text-center"> <!-- Center the text -->
+                        <h5 class="card-title">Jocelyn Ongtangco</h5>
+                        <p class="card-text">Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer bg-body-tertiary text-center">
+    <div class="container p-4">
+        <section class="mb-4">
+            <!-- Social media links -->
+        </section>
+        <section class="">
+            <form action="">
+                <!-- Newsletter signup -->
+            </form>
+        </section>
+        <section class="mb-4 py-2">
+            <!-- Additional information -->
+        </section>
+        <section class="">
+            <!-- Useful links -->
+        </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="#">Zaralene Convenience Store</a>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
