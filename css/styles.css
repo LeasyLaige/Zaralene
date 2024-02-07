@@ -1,0 +1,181 @@
+:root {
+  --main-bg-color: #531a53;
+  --secondary-bg-color: #e0b7b6;
+  --dark-purple: #30102d;
+  --black: #190d16;
+}
+
+section#Products {
+  .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    filter: grayscale(0) brightness(0.8);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  .places .card:hover {
+    transform: translatey(-10%);
+  }
+
+  .card:hover .card-img {
+    filter: grayscale(1) brightness(0.5);
+  }
+
+  .card:hover h5 {
+    color: var(--dark-orange-web);
+  }
+
+  @media only screen and (max-width: 768px) {
+    section.places {
+      position: relative;
+      top: 13vh;
+    }
+
+    video.bg-image {
+      height: 100vh;
+    }
+
+    div.carousel-item img {
+      height: 10%;
+    }
+  }
+
+  .carouselExampleControls {
+    padding: 5%;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  div.card {
+    height: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  div.card img {
+    height: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    transition: all 200ms;
+  }
+
+  div.card img:hover {
+    transform: scale(105%);
+  }
+
+  p.card-text {
+    font-size: x-small;
+  }
+
+  button.carousel-control-prev,
+  button.carousel-control-next {
+    width: 5vw;
+    opacity: 0%;
+  }
+
+  button.carousel-control-prev:hover,
+  button.carousel-control-next:hover {
+    opacity: 100%;
+  }
+
+  div.container-fluid.py-5 {
+    height: 1000vh;
+    max-height: 1100px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    div.container-fluid.py-5 {
+      height: 80vh;
+      max-height: 500px;
+    }
+  }
+  .btn {
+    background-color: #531a53;
+    border-color: #531a53;
+  }
+  .btn:hover {
+    color: #531a53;
+    background-color: #ffffff;
+    border-color: #531a53;
+  }
+
+  h3.display-5.fw-bold.mb-3 {
+    color: #531a53 !important;
+  }
+}
+
+div#featured {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .container .image-container .image {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .container .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s linear;
+  }
+  .container .image-container .image:hover img {
+    transform: scale(1.1);
+  }
+  .container .popup-image {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 95%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+  }
+
+  .container .popup-image span {
+    position: absolute;
+    top: 5%;
+    right: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: inherit;
+  }
+
+  .container .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width: 750px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .container .popup-image img {
+      width: 95%;
+    }
+  }
+}

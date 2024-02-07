@@ -1,0 +1,18 @@
+.header {
+  text-align: center;
+  color: #531a53;
+}
+
+.font-1 {
+  font-family: Space Grotesk, sans-serif;
+}
+
+.hr-purple {
+  border-width: 3px;
+  border-color: #531a53;
+}
+
+.hr-white {
+  border-width: 3px;
+  border-color: #ffffff;
+}
